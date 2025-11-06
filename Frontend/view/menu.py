@@ -112,7 +112,7 @@ class MenuPage(ft.View):
             controls=[
                 avatar,
                 ft.Text(
-                self.rol,
+                #self.rol,
                 self.nombre_usuario,
                 size=20, 
                 weight="bold",  
