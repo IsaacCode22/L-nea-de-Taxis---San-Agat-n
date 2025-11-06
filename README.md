@@ -44,3 +44,10 @@ si no se hace así, al utilizar la landing page, no le redireccione a Login.py d
 correr en el entorno virtual en el servidor local para correr el backend:
 
 uvicorn Backend.main:app --reload
+
+## Licencia
+
+Este proyecto está bajo **MIT License** (en inglés).  
+En resumen, puedes usar, modificar y redistribuir el proyecto, incluso con fines comerciales, siempre que mantengas el aviso de copyright original.
+
+>Nota: Este proyecto es una entrega académica para la universidad y se presenta solo con fines educativos.
