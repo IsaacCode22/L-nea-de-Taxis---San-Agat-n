@@ -18,7 +18,7 @@ san-agaton/
 ├─ requirements.txt  # Dependencias del proyecto
 └─ README.md         # Este archivo
 
-# Crear y activar el entorno virtual:
+## Crear y activar el entorno virtual:
 
 Windows:
 python -m venv env
@@ -28,12 +28,18 @@ Linux:
 python3 -m venv env
 source env/bin/activate
 
-# Instalar Dependencias
+##Instalar Dependencias
 
 pip install -r requirements.txt
 
 
-# Servidor Fastapi
+## Servidor Fastapi y de flet
+
+frontend flet:
+
+py Frontend/app.py
+
+si no se hace así, al utilizar la landing page, no le redireccione a Login.py de flet.
 
 correr en el entorno virtual en el servidor local para correr el backend:
 
