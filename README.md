@@ -44,3 +44,5 @@ si no se hace así, al utilizar la landing page, no le redireccione a Login.py d
 correr en el entorno virtual en el servidor local para correr el backend:
 
 uvicorn Backend.main:app --reload
+
+> Nota: Este proyecto es una entrega académica para la universidad y se presenta solo con fines educativos.
