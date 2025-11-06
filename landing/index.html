@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Línea de Taxis - San Agatón</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/logo.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Barra de navegación-->
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-3" href="#">Línea San Agatón</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-lg-center gap-3">
+          <li class="nav-item"><a href="#socios" class="nav-link">Socios</a></li>
+          <li class="nav-item"><a href="#vehiculos" class="nav-link">Vehículos</a></li>
+          <li class="nav-item"><a href="#avances" class="nav-link">Avances</a></li>
+          <li class="nav-item"><a href="#finanzas" class="nav-link">Finanzas</a></li>
+          <li class="nav-item"><a href="#ubicacion" class="nav-link">Ubicación</a></li>
+        </ul>
+        <a href="http://127.0.0.1:8550" target="_blank" class="btn btn-accent ms-lg-3 fw-semibold">Acceder</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero Sección-->
+  <header class="hero-section d-flex align-items-center justify-content-center text-center fade-in">
+    <div class="hero-overlay"></div>
+    <div class="container position-relative text-center text-white">
+      <h1 class="fw-bold display-3">Bienvenido a Línea San Agatón</h1>
+      <p class="lead mt-3">Gestión moderna, clara y eficiente para tu línea de transporte</p>
+      <a href="#socios" class="btn btn-accent btn-lg mt-4">Comenzar</a>
+    </div>
+  </header>
+
+  <!-- secciones -->
+  <section id="socios" class="section fade-in">
+    <div class="container">
+      <h2 class="section-title fade-in">Gestión de Socios</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-5 fade-in">
+          <div class="card card-section">
+            <img src="https://echezgroup.com/wp-content/uploads/2023/12/Las-estrategias-de-gestion-de-socios.jpg" class="card-img-top" alt="Socios">
+            <div class="card-body">
+              <p class="card-text">Consulta y gestiona fácilmente la lista de socios registrados. Agrega, edita, elimina o genera un PDF con la información.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="vehiculos" class="section bg-light fade-in">
+    <div class="container">
+      <h2 class="section-title fade-in">Gestión de Vehículos</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-5 fade-in">
+          <div class="card card-section">
+            <img src="https://iili.io/Ke2Ohrv.md.jpg" class="card-img-top" alt="Vehículos">
+            <div class="card-body">
+              <p class="card-text">Gestiona vehículos de la línea: filtra por número de control, placa o marca. Agrega, edita, elimina y exporta la lista a PDF.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="avances" class="section fade-in">
+    <div class="container">
+      <h2 class="section-title fade-in">Gestión de Avances</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-5 fade-in">
+          <div class="card card-section">
+            <img src="https://estaticos-cdn.prensaiberica.es/clip/35c39737-024e-4ce2-9bee-b6aba2a2997a_16-9-discover-aspect-ratio_default_0.jpg" class="card-img-top" alt="Avances">
+            <div class="card-body">
+              <p class="card-text">Visualiza avances de los empleados, genera PDF, agrega nuevos avances o edita los existentes de manera sencilla.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="finanzas" class="section bg-light fade-in">
+    <div class="container">
+      <h2 class="section-title fade-in">Sanciones y Finanzas</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-5 fade-in">
+          <div class="card card-section">
+            <img src="https://www.almendron.com/tribuna/wp-content/uploads/2024/04/gobernanza-mundial-para-las-sanciones-financieras.webp" class="card-img-top" alt="Finanzas">
+            <div class="card-body">
+              <p class="card-text"><strong>Sanciones:</strong> Visualiza y gestiona sanciones aplicadas a los socios.<br>
+                <strong>Finanzas:</strong> Consulta y administra las finanzas de la línea de forma clara y rápida.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ubicacion" class="section fade-in">
+    <div class="container text-center">
+      <h2 class="section-title fade-in mb-4">Nuestra Ubicación</h2>
+      <div class="map-responsive shadow-lg rounded-4 overflow-hidden mx-auto fade-in">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d253.78915865531323!2d-72.22817899174913!3d7.837459343052147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssan%20agaton%20palmira!5e1!3m2!1ses-419!2sve!4v1762025787911!5m2!1ses-419!2sve"
+          width="100%"
+          height="300"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer text-center py-5 fade-in">
+    <small>© 2025 Línea San Agatón. Todos los derechos reservados.</small>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- FADE-IN SCROLL JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
