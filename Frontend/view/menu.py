@@ -187,7 +187,7 @@ class MenuPage(ft.View):
                 icon=ft.icons.DESCRIPTION_OUTLINED,
                 icon_color=Colores.BLANCO,
                 tooltip="Manual de Usuario",
-                on_click=lambda e: pagina.launch_url("https://tu-enlace-al-manual.com")
+                on_click=lambda e: pagina.launch_url("https://download856.mediafire.com/aft4fqwp4ozgeojMN_UEwfOtQrHcGbZXhoRIIxqBgDM9ErkwF5g0MDLsv_WW7YmOyc6g81KRAIkrK_extTioNZGn423osE2-HkuEKdpQEQz9VYIzMO3c6VKPzUgW1rSm01A6mlztTGnuyqOUt-xu8YLVw8FhWeoCPDuIh-PxKdzb/sdhh34p5jeh3a4l/Manual_de_usuario_2025+1.2.pdf")
                 ),
                 ft.IconButton(
                 icon=ft.icons.LOGOUT,
